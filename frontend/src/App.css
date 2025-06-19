@@ -1,0 +1,13 @@
+/* App.css or a global CSS file */
+
+:root {
+    /* Light mode toast styles */
+    --toast-bg: #ffffff;
+    --toast-text: #1f2937;
+}
+
+[data-theme='dark'] {
+    /* Dark mode toast styles */
+    --toast-bg: #1f2937;
+    --toast-text: #ffffff;
+}
