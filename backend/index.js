@@ -47,12 +47,12 @@ app.use('/api/cron', cronRoutes);
 app.get('/api/health', async (req, res) => {
 
 
-    const result = await ProblemStats.deleteMany();
-    console.log(`Deleted ${result.deletedCount} problem stats records`);
-    const result2 = await ContestHistory.deleteMany();
-    console.log(`Deleted ${result2.deletedCount} contest states records`);
-    const result3 = await Student.deleteMany();
-    console.log(`Deleted ${result3.deletedCount} student records`);
+    // const result = await ProblemStats.deleteMany();
+    // console.log(`Deleted ${result.deletedCount} problem stats records`);
+    // const result2 = await ContestHistory.deleteMany();
+    // console.log(`Deleted ${result2.deletedCount} connection states records`);
+    // const result3 = await Student.deleteMany();
+    // console.log(`Deleted ${result3.deletedCount} student records`);
 
 
     res.json({
